@@ -15,9 +15,9 @@ It's private, offline, and runs on your machine using models like **Mistral**.
 
 ---
 
-## 🧰 Installation
+## 🧰 Installation and Usage
 
-Install required Python libraries:
+Run the following commands in your terminal to install dependencies, install Ollama, and start the Mistral model locally:
 
 ```bash
 pip install streamlit PyPDF2 requests
@@ -30,8 +30,16 @@ ollama run mistral
 
 ---
 
-## 🗂️ Project Structure
+## 🧰 Installation
 
-📁 ai-doc-summarizer/
-├── app.py           # Streamlit app with summarizer and Q&A
-└── README.md        # You’re reading it 🙂
+1. Make sure the Mistral model is running locally:
+
+ollama run mistral
+
+2. Run the Streamlit app:
+
+streamlit run app.py
+
+3. Open your browser to the displayed URL (default: http://localhost:8501).
+
+4. Upload a PDF document.
