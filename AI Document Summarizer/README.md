@@ -28,7 +28,9 @@ curl -fsSL https://ollama.com/install.sh | sh
 # Start the Mistral model locally
 ollama run mistral
 
-Project Structure
+---
+
+## 🗂️ Project Structure
 
 📁 ai-doc-summarizer/
 ├── app.py           # Streamlit app with summarizer and Q&A
